@@ -19,7 +19,7 @@ function App() {
 
     return (
         <div className="App">
-            <h1>Text Utility App</h1>
+            <h1>Text Utility App For Text Transform</h1>
             <div className="output-container">
                 <div id="text-output" className="text-output">
                     {text}
