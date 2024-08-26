@@ -1,0 +1,25 @@
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.text-output {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    white-space: pre-wrap;
+}
