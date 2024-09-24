@@ -1,14 +1,18 @@
 
 import React from 'react';
 
-const CopyButton = ({ text }) => {
+const CopyButton = ({ text , setText}) => {
     const copyToClipboard = () => {
         navigator.clipboard.writeText(text);
         alert('Text copied to clipboard!');
     };
 
     return (
-        <button onClick={copyToClipboard}>Copy Text</button>
+        <div>
+            <button className = "copyBtn" onClick={copyToClipboard}>Copy Text</button>
+            <button className = "clearTextBtn" onClick={()=>setText("")}>Clear Text</button>
+            
+        </div>
     );
 };
 
